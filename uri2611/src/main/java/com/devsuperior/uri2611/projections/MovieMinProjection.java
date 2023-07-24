@@ -1,4 +1,4 @@
-package com.devsuperior.bee2611.projections;
+package com.devsuperior.uri2611.projections;
 
 public interface MovieMinProjection {
 

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Bee2611Application",
+            "request": "launch",
+            "mainClass": "com.devsuperior.bee2611.Bee2611Application",
+            "projectName": "uri2611"
+        },
+        {
+            "type": "java",
             "name": "Bee2602Application",
             "request": "launch",
             "mainClass": "com.devsuperior.bee2602.Bee2602Application",
@@ -17,6 +24,16 @@
             "args": "",
             "envFile": "${workspaceFolder}/.env",
             "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=61326 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=uri2602"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Uri2611Application<uri2611>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.devsuperior.uri2611.Uri2611Application",
+            "projectName": "uri2611",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
