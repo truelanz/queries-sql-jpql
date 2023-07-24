@@ -1,4 +1,4 @@
-package com.devsuperior.uri2611.entities;
+package com.devsuperior.bee2611.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

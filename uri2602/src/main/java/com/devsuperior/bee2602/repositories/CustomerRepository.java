@@ -14,13 +14,13 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
     //Consulta SQL
     @Query(nativeQuery = true, value = "SELECT name "
         + "FROM customers "
-        + " WHERE UPPER(state) = UPPER(:state)")
+        + "WHERE UPPER(state) = UPPER(:state)")
     List<CustomerMinProjection> search1(String state);
 
     //Consulta JPQL
     @Query("SELECT new com.devsuperior.bee2602.dto.CustomerMinDTO(obj.name) "
         + "FROM Customer obj "
-        + " WHERE UPPER(obj.state) = UPPER(:state)")
+        + "WHERE UPPER(obj.state) = UPPER(:state)")
     List<CustomerMinDTO> search2 (String state);
     
 }
