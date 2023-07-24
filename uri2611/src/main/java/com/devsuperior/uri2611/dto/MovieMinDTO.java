@@ -10,7 +10,7 @@ public class MovieMinDTO {
     public MovieMinDTO() {
     }
 
-    public MovieMinDTO(Long id, String name, String idGenres) {
+    public MovieMinDTO(Long id, String name) {
         this.id = id;
         this.name = name;
     }
