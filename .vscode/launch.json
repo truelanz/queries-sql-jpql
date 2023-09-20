@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Uri2621Application",
+            "request": "launch",
+            "mainClass": "com.devsuperior.uri2621.Uri2621Application",
+            "projectName": "uri2621"
+        },
+        {
+            "type": "java",
             "name": "Bee2611Application",
             "request": "launch",
             "mainClass": "com.devsuperior.bee2611.Bee2611Application",
