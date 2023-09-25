@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Uri2609Application",
+            "request": "launch",
+            "mainClass": "com.devsuperior.uri2609.Uri2609Application",
+            "projectName": "uri2609"
+        },
+        {
+            "type": "java",
             "name": "Uri2621Application",
             "request": "launch",
             "mainClass": "com.devsuperior.uri2621.Uri2621Application",
